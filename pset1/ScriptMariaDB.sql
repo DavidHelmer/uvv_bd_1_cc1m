@@ -1,3 +1,6 @@
+/* a seguir voce verá um script de como implementar o projeto lógico Elmasri no Sistema de Gerenciamento de Banco de Dados MariaDB, tendo os comandos desde
+a criação do usuário até o inserimento dos dados.
+*/
 
 /*[Terminal Linux] - Criando o usuário e garantindo privilégios
 Obs: Os comandos aqui devem ser executados um por um para não ocorrer erro
