@@ -4,3 +4,6 @@ Este pset inclue a criação do projeto lógico Elmasri no SQL Power Architect, 
 entre eles o PostgreSQL e o MariaDB.
 
 O sistema operacional utilizado foi o **Linux** , em uma máquina virtual disponibilizada pelo site [Computação Raíz](https://www.computacaoraiz.com.br/2022/03/17/maquina-virtual-para-o-estudo-de-sistemas-de-gerenciamento-de-bancos-de-dados-db-server/)
+
+### ATENÇÃO!!
+Todos os scripts escritos, PostgreSQL e MariaDB, estão prontos para serem executados sem nenhuma alteração, porém foram separados em seções para sua execução
