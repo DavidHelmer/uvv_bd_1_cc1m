@@ -1,22 +1,27 @@
-/*A seguir virá um script de como instalar o projeto lógico Elmasri no Sistema de Gerenciamento de Banco de Dados PostgreSql, note que o sistema operacional
-utilizado foi o Linux e todos os comandos foram executados em seu terminal, desde os comandos para instalação até as devidas senhas usadas nos usuários
-que estavam presentes na máquina virtual.
+/*A seguir você verá um script de como instalar o projeto lógico Elmasri no Sistema de Gerenciamento de Banco de Dados PostgreSql, desde os comandos para
+instalação até as devidas senhas usadas nos usuários que estavam presentes na máquina virtual.
 */
 
---[Terminal Linux] - Instalação do Suporte de linguagem
+/*[Terminal Linux] - Instalação do Suporte de linguagem
+Obs: Aqui os comandos devem ser executados um por um para não ocorrer erro.
+*/
 su - root
 password:computacao@raiz
 dnf install langpacks-en glibc-all-langpacks
 y
 systemctl restart postgresql-14.service
---[Terminal Linux] - Criação de Usuário
+/*[Terminal Linux] - Criação de Usuário
+Obs: Aqui os comandos devem ser executados um por um para não ocorrer erro.
+*/
 su - postgres
 password:postgres
 createuser -dPs david
 123
 123
 password:computacao@raiz
---[Terminal Linux] - Criação do Banco de Dados uvv
+/*[Terminal Linux] - Criação do Banco de Dados uvv
+Obs: Atenção aqui os comandos devem ser executados um por um para nao ocorrer erro.
+*/
 psql -U david postgres
 123
 CREATE DATABASE uvv
