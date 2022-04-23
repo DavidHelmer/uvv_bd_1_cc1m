@@ -1,12 +1,16 @@
---[Terminal Linux] - Criando o usuário e garantindo privilégios
+
+/*[Terminal Linux] - Criando o usuário e garantindo privilégios
+Obs: Os comandos aqui devem ser executados um por um para não ocorrer erro
+*/
 
 mariadb -u root -p
 password:computacao@raiz
 CREATE USER david IDENTIFIED BY '123';
 GRANT ALL ON *.* TO david;
 
---[Terminal Linux] Criando o banco de dados
-
+/*[Terminal Linux] Criando o banco de dados
+Obs: Os comandos aqui devem ser executados um por um para não ocorrer erro
+*/
 \q
 mariadb -u david -p
 123
