@@ -1,6 +1,6 @@
 /*A seguir virá um script de como instalar o projeto lógico Elmasri no Sistema de Gerenciamento de Banco de Dados PostgreSql, note que o sistema operacional
 utilizado foi o Linux e todos os comandos foram executados em seu terminal, desde os comandos para instalação até as devidas senhas usadas nos usuários
-que estavam presente na máquina virtual dbserver da computação raíz. Segue o link para o download https://www.computacaoraiz.com.br/2022/03/17/maquina-virtual-para-o-estudo-de-sistemas-de-gerenciamento-de-bancos-de-dados-db-server/
+que estavam presentes na máquina virtual.
 */
 
 --[Terminal Linux] - Instalação do Suporte de linguagem
@@ -36,7 +36,7 @@ CREATE SCHEMA elmasri
 AUTHORIZATION david;
 SET SEARCH_PATH TO elmasri, "$user", public;
 ALTER USER david
-SET SEARCH PATH TO elmasri, "$user", public;
+SET SEARCH_PATH TO elmasri, "$user", public;
 --[Terminal Linux] - Implementação do projeto lógico Elmasri
 
 
