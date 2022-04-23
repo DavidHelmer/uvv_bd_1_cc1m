@@ -33,7 +33,9 @@ LC_COLLATE = 'pt_BR.UTF-8'
 LC_CTYPE = 'pt_BR.UTF-8'
 ALLOW_CONNECTIONS = true;
 GRANT ALL ON DATABASE uvv TO david;
---[Terminal Linux] - Criação e definição do SCHEMA elmasri
+/*[Terminal Linux] - Criação e definição do SCHEMA elmasri
+Obs: Aqui os comandos devem ser executados um por um para não ocorrer erro.
+*/
 \q
 psql -U david uvv
 123
