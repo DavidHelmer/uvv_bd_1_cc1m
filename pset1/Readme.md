@@ -9,7 +9,7 @@
 ## Material Utilizado
 > Todo o projeto foi realizado em uma máquina virtual instalada no programa **Virtual Box**, com um sistema operacional **Linux**, portanto todos os seus comandos foram executados em seu terminal. Para realizar o download da máquina virtual, se houver interesse, entre no site [Computação Raíz](https://www.computacaoraiz.com.br/2022/03/17/maquina-virtual-para-o-estudo-de-sistemas-de-gerenciamento-de-bancos-de-dados-db-server/)
 
-## Programas Utilizados
+## Programas Utilizados Dentro da Máquina Virtual
 - SQL Power Architect
 - PgAdmin
 - DBeaver
