@@ -14,5 +14,10 @@
 - PgAdmin
 - DBeaver
 
+## Projeto Lógico Elmasri
+> Projeto feito utilizando a interface gráfica _SQL Power Architect_
+![modelo_elmasri](https://github.com/DavidHelmer/uvv_bd_1_cc1m/blob/main/pset1/imgs/modelo-elmasri.png?raw=true)
+> Depois da criação do projeto na interface apresentada simplifica bastante o processo, pois temos a opção de criar um script automático para diversos Sistemas de Gerenciamento de Bancos de Dados disponíveis no programa. Incluindo o PostgreSQL e o MariaDB
+
 ### Aviso
 > Todos os scripts escritos, PostgreSQL e MariaDB, estão prontos para serem executados sem nenhuma alteração, porém foram separados em seções para sua execução
