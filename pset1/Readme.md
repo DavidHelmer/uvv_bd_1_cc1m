@@ -1,4 +1,8 @@
 # Problem Set 1
+## Nome: David Helmer Cândido
+## Professor: Abrantes Araujo Silva Filho
+## Monitora: Suellen Miranda Amorim
+
 ## Este PSet trabalha primariamente com banco de dados
 Este pset inclui a criação do projeto lógico Elmasri no SQL Power Architect, seguido da sua inclusão em diversos Sistemas de Gerenciamento de Banco de Dados,
 entre eles o PostgreSQL e o MariaDB.
