@@ -195,7 +195,7 @@ REFERENCES elmasri.projeto (numero_projeto)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
---[Terminal Linux] - Inserimento dos dados no projeto lógico
+--[Terminal Linux] - Inserção dos dados no projeto lógico
 
 INSERT INTO funcionario (primeiro_nome, nome_meio, ultimo_nome, cpf, data_nascimento, endereco, sexo, salario, numero_departamento)
 VALUES ('Jorge', 'E', 'Brito', 88866555576, '1937-11-10', 'Rua do Horto, 35, São Paulo, SP', 'M', 55000, 1);
