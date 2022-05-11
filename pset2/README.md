@@ -1,7 +1,7 @@
 # Problem Set 2
 #### Nome: David Helmer Cândido
-#### Turma: CC1M
-#### Professor: Abrantes Araújo Silva Filho
+#### Monitora: Suellen Miranda Amorim
+#### Professor: Abrantes Araujo Silva Filho
 
 ### Criação de Relatórios em MySQL
 > Neste segundo pset foi dado a tarefa principal de fazer diversos relatórios com a linguagem de programação MySQL, usando diversos comandos de consulta de tabelas e dados.
