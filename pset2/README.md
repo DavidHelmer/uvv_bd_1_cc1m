@@ -1,4 +1,8 @@
 # Problem Set 2
+#### Nome: David Helmer Cândido
+#### Turma: CC1M
+#### Professor: Abrantes Araújo Silva Filho
+
 ### Criação de Relatórios em MySQL
 > Neste segundo pset foi dado a tarefa principal de fazer diversos relatórios com a linguagem de programação MySQL, usando diversos comandos de consulta de tabelas e dados.
 #### O Banco de Dados foi o projeto Elmasri, portanto todos os dados usados estão no [pset 1](https://github.com/DavidHelmer/uvv_bd_1_cc1m/tree/main/pset1).
