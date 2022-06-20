@@ -137,3 +137,17 @@ INSERT INTO classificacao (codigo, nome, codigo_pai) VALUES (68, 'Infantil', 66)
 INSERT INTO classificacao (codigo, nome, codigo_pai) VALUES (69, 'Veterinária', 66);
 INSERT INTO classificacao (codigo, nome, codigo_pai) VALUES (45, 'Infantil', 43);
 INSERT INTO classificacao (codigo, nome, codigo_pai) VALUES (46, 'Veterinária', 43);
+
+--Criação da query hierárquica
+WITH RECURSIVE classificacao_geral
+AS ( SELECT codigo, nome, codigo_pai, CAST (nome AS TEXT) AS arranjo
+FROM classificacao
+WHERE codigo_pai IS NULL
+UNION ALL
+SELECT c.codigo, cg.nome, c.codigo_pai, CAST(cg.arranjo || ' -> ' || c.nome AS TEXT)
+FROM classificacao c
+INNER JOIN classificacao_geral cg ON c.codigo_pai = cg.codigo)
+SELECT arranjo AS "Arranjo", codigo_pai AS "Código pai"
+FROM classificacao_geral cg
+ORDER BY arranjo;
+
